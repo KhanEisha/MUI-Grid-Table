@@ -13,12 +13,12 @@ export const politicalData = [
         "Email": "chcrazyottos@gmail.com",
         "Website": null,
         "Phone": "(661) 492-1790",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "MICHELLE ROYAL",
-        "Title": "Business Owner\/Entrepreneur",
+        "Title": "Business Owner Entrepreneur",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -30,8 +30,8 @@ export const politicalData = [
         "Email": "michelle@dpcommercial.com",
         "Website": null,
         "Phone": "(661) 917-0917",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "CARLO BASAIL",
@@ -47,8 +47,8 @@ export const politicalData = [
         "Email": "carlobasail@yahoo.com",
         "Website": null,
         "Phone": "(661) 713-6123",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "DREW MERCY",
@@ -64,8 +64,8 @@ export const politicalData = [
         "Email": "drew@drewmercy.com",
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "JAMES ROYAL",
@@ -81,12 +81,12 @@ export const politicalData = [
         "Email": "james.royal.plus@gmail.com",
         "Website": null,
         "Phone": "(818) 279-3384",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "JACK DANIELSON",
-        "Title": "Taxpayer Advocate\/Educator",
+        "Title": "Taxpayer Advocate Educator",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -98,8 +98,8 @@ export const politicalData = [
         "Email": "jackdanielson99@gmail.com",
         "Website": null,
         "Phone": "(661) 900-8921",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "RAJ MALHI",
@@ -115,8 +115,8 @@ export const politicalData = [
         "Email": "rajmalhi21@gmail.com",
         "Website": null,
         "Phone": "(661) 305-5888",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "DEBORAH DINO",
@@ -132,8 +132,8 @@ export const politicalData = [
         "Email": "debino53@yahoo.com",
         "Website": null,
         "Phone": "(661) 435-1188",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "KAREN ROSEBERRY",
@@ -149,8 +149,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "BRYAN ANGUIANO",
@@ -166,8 +166,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "KENNETH MANN",
@@ -183,8 +183,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "ARCADIA VENEGAS",
@@ -200,8 +200,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "MARVIN CRIST",
@@ -217,8 +217,8 @@ export const politicalData = [
         "Email": "marvin.e.crist@gmail.com",
         "Website": null,
         "Phone": "(661) 917-0126",
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "VINCENT J. DINO",
@@ -234,8 +234,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/1\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/1/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "DANIEL MALDONADO",
@@ -251,12 +251,12 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "11\/29\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "11/29/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "NUNE GIPSON",
-        "Title": "Businesswoman\/Paralegal\/Mom",
+        "Title": "Businesswoman Paralegal Mom",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -268,8 +268,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "11\/16\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "11/16/2023 "
     },
     {
         "Candidate": "MELISSA LUNDIE",
@@ -285,12 +285,12 @@ export const politicalData = [
         "Email": "melissalundie@gmail.com",
         "Website": null,
         "Phone": "(805) 748-1444",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "11\/29\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "11/29/2023 "
     },
     {
         "Candidate": "VERONICA HIXSON",
-        "Title": "Educator\/Parent",
+        "Title": "Educator Parent",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -302,12 +302,12 @@ export const politicalData = [
         "Email": "vhixson73@gmail.com",
         "Website": null,
         "Phone": "(661) 212-5038",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "11\/22\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "11/22/2023 "
     },
     {
         "Candidate": "LUCIE VOLOTZKY",
-        "Title": "Mother\/Businesswoman",
+        "Title": "Mother Businesswoman",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -319,8 +319,8 @@ export const politicalData = [
         "Email": null,
         "Website": "www.voteforlucie.com",
         "Phone": "(747) 285-0803",
-        "NOMIssueDate": "11\/21\/2023 ",
-        "NOMFileDate": "11\/30\/2023 "
+        "NOMIssueDate": "11/21/2023 ",
+        "NOMFileDate": "11/30/2023 "
     },
     {
         "Candidate": "JOE MESSINA",
@@ -336,8 +336,8 @@ export const politicalData = [
         "Email": "joe@joemessina.com",
         "Website": null,
         "Phone": "(661) 257-9250",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "PATRICK GIPSON",
@@ -353,8 +353,8 @@ export const politicalData = [
         "Email": "patrick@gipson4assembly.com",
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/7\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/7/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "AAKASH AHUJA",
@@ -370,8 +370,8 @@ export const politicalData = [
         "Email": "dr.aakash2020@gmail.com",
         "Website": null,
         "Phone": "(612) 201-3488",
-        "NOMIssueDate": "11\/8\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "11/8/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "JUDY LAMPPU",
@@ -387,12 +387,12 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/16\/2023 ",
-        "NOMFileDate": "11\/14\/2023 "
+        "NOMIssueDate": "10/16/2023 ",
+        "NOMFileDate": "11/14/2023 "
     },
     {
         "Candidate": "DENISE LITE",
-        "Title": "Attorney\/Parent\/Entrepreneur",
+        "Title": "Attorney Parent Entrepreneur",
         "Status": "A",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -404,12 +404,12 @@ export const politicalData = [
         "Email": "dplacencio@dacorsi.net",
         "Website": null,
         "Phone": "(818) 522-6482",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "BONNIE WALLACE",
-        "Title": "Educator\/Community Organizer",
+        "Title": "Educator Community Organizer",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -421,8 +421,8 @@ export const politicalData = [
         "Email": "bonbonmom@gmail.com",
         "Website": null,
         "Phone": "(626) 644-4845",
-        "NOMIssueDate": "10\/3\/2023 ",
-        "NOMFileDate": "12\/1\/2023 "
+        "NOMIssueDate": "10/3/2023 ",
+        "NOMFileDate": "12/1/2023 "
     },
     {
         "Candidate": "JACK C. MERCICA",
@@ -438,12 +438,12 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/3\/2023 ",
-        "NOMFileDate": "10\/30\/2023 "
+        "NOMIssueDate": "10/3/2023 ",
+        "NOMFileDate": "10/30/2023 "
     },
     {
         "Candidate": "LOIS BRAND BILLINGS",
-        "Title": "Educator\/Realtor\/Businessowner",
+        "Title": "Educator Realtor Businessowner",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -455,12 +455,12 @@ export const politicalData = [
         "Email": "loisleeb@aol.com",
         "Website": null,
         "Phone": "(626) 823-4679",
-        "NOMIssueDate": "12\/4\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "12/4/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "JACQUELINE MUNOZ",
-        "Title": "Realtor\/Non-Profit Coordinator",
+        "Title": "Realtor Non-Profit Coordinator",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -472,8 +472,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/23\/2023 ",
-        "NOMFileDate": "11\/3\/2023 "
+        "NOMIssueDate": "10/23/2023 ",
+        "NOMFileDate": "11/3/2023 "
     },
     {
         "Candidate": "DEBORAH SCOTT TOUX",
@@ -489,8 +489,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/5\/2023 ",
-        "NOMFileDate": "11\/6\/2023 "
+        "NOMIssueDate": "10/5/2023 ",
+        "NOMFileDate": "11/6/2023 "
     },
     {
         "Candidate": "PIERRE SYLLA",
@@ -506,8 +506,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/23\/2023 ",
-        "NOMFileDate": "11\/1\/2023 "
+        "NOMIssueDate": "10/23/2023 ",
+        "NOMFileDate": "11/1/2023 "
     },
     {
         "Candidate": "CALLIE GREGORY",
@@ -523,8 +523,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/5\/2023 ",
-        "NOMFileDate": "11\/6\/2023 "
+        "NOMIssueDate": "10/5/2023 ",
+        "NOMFileDate": "11/6/2023 "
     },
     {
         "Candidate": "CYNTHIA GABALDON",
@@ -540,12 +540,12 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": "(909) 455-8520",
-        "NOMIssueDate": "10\/5\/2023 ",
-        "NOMFileDate": "11\/6\/2023 "
+        "NOMIssueDate": "10/5/2023 ",
+        "NOMFileDate": "11/6/2023 "
     },
     {
         "Candidate": "LEO SAMUEL ZACKY",
-        "Title": "Farmer\/Businessman\/Broadcaster",
+        "Title": "Farmer Businessman Broadcaster",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -557,8 +557,8 @@ export const politicalData = [
         "Email": "leo@leoszacky.com",
         "Website": "www.leozacky.com",
         "Phone": "(310) 357-5167",
-        "NOMIssueDate": "12\/5\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "12/5/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "RICHARD MULLEN",
@@ -574,8 +574,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/10\/2023 ",
-        "NOMFileDate": "12\/4\/2023 "
+        "NOMIssueDate": "10/10/2023 ",
+        "NOMFileDate": "12/4/2023 "
     },
     {
         "Candidate": "RONNIE BANSBACH",
@@ -591,12 +591,12 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/18\/2023 ",
-        "NOMFileDate": "12\/6\/2023 "
+        "NOMIssueDate": "10/18/2023 ",
+        "NOMFileDate": "12/6/2023 "
     },
     {
         "Candidate": "ELIZABETH BARCOHANA",
-        "Title": "Mother\/Attorney",
+        "Title": "Mother Attorney",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -608,8 +608,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "11\/29\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "11/29/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "GINGER HYDE",
@@ -625,8 +625,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "10\/6\/2023 ",
-        "NOMFileDate": "12\/1\/2023 "
+        "NOMIssueDate": "10/6/2023 ",
+        "NOMFileDate": "12/1/2023 "
     },
     {
         "Candidate": "CLIFTON RIO TORRADO VON BUCK",
@@ -642,8 +642,8 @@ export const politicalData = [
         "Email": "junkvb@att.net",
         "Website": null,
         "Phone": "(620) 207-1843",
-        "NOMIssueDate": "11\/30\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "11/30/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "KAREN SIEGEMUND",
@@ -659,8 +659,8 @@ export const politicalData = [
         "Email": "kwsiegemund@aol.com",
         "Website": null,
         "Phone": "(401) 965-9440",
-        "NOMIssueDate": "11\/6\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "11/6/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "MARIANNE RIGGINS",
@@ -676,8 +676,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": null,
-        "NOMIssueDate": "12\/4\/2023 ",
-        "NOMFileDate": "12\/6\/2023 "
+        "NOMIssueDate": "12/4/2023 ",
+        "NOMFileDate": "12/6/2023 "
     },
     {
         "Candidate": "DENIS WEBER",
@@ -693,8 +693,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": "(818) 317-8151",
-        "NOMIssueDate": "11\/27\/2023 ",
-        "NOMFileDate": "12\/4\/2023 "
+        "NOMIssueDate": "11/27/2023 ",
+        "NOMFileDate": "12/4/2023 "
     },
     {
         "Candidate": "K. \"KEVIN\" HEDVAT",
@@ -710,8 +710,8 @@ export const politicalData = [
         "Email": "kevin@hedvat.com",
         "Website": null,
         "Phone": "(310) 741-0485",
-        "NOMIssueDate": "10\/16\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "10/16/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "MARSHALL MULLEN",
@@ -727,8 +727,8 @@ export const politicalData = [
         "Email": "marshallmullen@gmail.com",
         "Website": null,
         "Phone": "(310) 924-4316",
-        "NOMIssueDate": "11\/27\/2023 ",
-        "NOMFileDate": "12\/4\/2023 "
+        "NOMIssueDate": "11/27/2023 ",
+        "NOMFileDate": "12/4/2023 "
     },
     {
         "Candidate": "SIAKA MASSAQUOI",
@@ -744,8 +744,8 @@ export const politicalData = [
         "Email": "siakamassaquoi@gmail.com",
         "Website": null,
         "Phone": "(310) 750-7362",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "12\/8\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "12/8/2023 "
     },
     {
         "Candidate": "ROXANNE HOGE",
@@ -761,12 +761,12 @@ export const politicalData = [
         "Email": "roxannehoge@gmail.com",
         "Website": "www.roxannebeckford.com",
         "Phone": "(818) 650-0466",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "12\/7\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "12/7/2023 "
     },
     {
         "Candidate": "FELICIA L. NOVICK",
-        "Title": "Mom\/Office Administrator",
+        "Title": "Mom Office Administrator",
         "Status": "N",
         "Party": "Republican ",
         "Office": "MEMBER, COUNTY CENTRAL COMMITTEE",
@@ -778,8 +778,8 @@ export const politicalData = [
         "Email": null,
         "Website": null,
         "Phone": "(310) 902-7223",
-        "NOMIssueDate": "10\/10\/2023 ",
-        "NOMFileDate": "11\/2\/2023 "
+        "NOMIssueDate": "10/10/2023 ",
+        "NOMFileDate": "11/2/2023 "
     },
     {
         "Candidate": "OTTO KRAUSE",
@@ -795,8 +795,8 @@ export const politicalData = [
         "Email": "ottobkrause@gmail.com",
         "Website": null,
         "Phone": "(310) 713-6886",
-        "NOMIssueDate": "10\/25\/2023 ",
-        "NOMFileDate": "11\/27\/2023 "
+        "NOMIssueDate": "10/25/2023 ",
+        "NOMFileDate": "11/27/2023 "
     },
     {
         "Candidate": "MAHEALANI KANE URQUIZA",
@@ -812,8 +812,8 @@ export const politicalData = [
         "Email": "kane.lani66@gmail.com",
         "Website": null,
         "Phone": "(707) 349-5457",
-        "NOMIssueDate": "10\/27\/2023 ",
-        "NOMFileDate": "11\/30\/2023 "
+        "NOMIssueDate": "10/27/2023 ",
+        "NOMFileDate": "11/30/2023 "
     },
     {
         "Candidate": "AUDREY BARANISHYN-KRAUSE",
@@ -829,7 +829,7 @@ export const politicalData = [
         "Email": "kineticonnection@gmail.com",
         "Website": null,
         "Phone": "(818) 427-8835",
-        "NOMIssueDate": "10\/25\/2023 ",
-        "NOMFileDate": "11\/27\/2023 "
+        "NOMIssueDate": "10/25/2023 ",
+        "NOMFileDate": "11/27/2023 "
     }
 ]
