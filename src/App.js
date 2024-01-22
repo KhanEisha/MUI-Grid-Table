@@ -34,7 +34,7 @@ const columns = [
   },
   { field: 'Title', headerName: 'Title', width: 200, filterable: true, type: 'text' },
   { field: 'Status', headerName: 'Status', width: 120, filterable: true, type: 'singleSelect', valueOptions: ['A', 'N', 'E'] },
-  { field: 'Party', headerName: 'Party', width: 150, filterable: true, type: 'singleSelect', valueOptions: ['Republican', 'Democrat', 'Independent'] },
+  { field: 'Party', headerName: 'Party', width: 150, filterable: true, type: 'singleSelect', valueOptions: ['Republican'] },
   {
     field
 
@@ -43,7 +43,7 @@ const columns = [
   { field: 'District', headerName: 'District', width: 150, filterable: true, type: 'text' },
   { field: 'Address', headerName: 'Address', width: 250, filterable: true, type: 'text' },
   { field: 'City', headerName: 'City', width: 150, filterable: true, type: 'text' },
-  { field: 'State', headerName: 'State', width: 120, filterable: true, type: 'singleSelect', valueOptions: ['CA', 'NY', 'TX', 'Other'] },
+  { field: 'State', headerName: 'State', width: 120, filterable: true, type: 'singleSelect', valueOptions: ['CA'] },
   { field: 'ZipCode', headerName: 'ZipCode', width: 130, filterable: true, type: 'number' },
   { field: 'Email', headerName: 'Email', width: 200, filterable: true, type: 'text' },
   { field: 'Phone', headerName: 'Phone', width: 150, filterable: true, type: 'text' },
