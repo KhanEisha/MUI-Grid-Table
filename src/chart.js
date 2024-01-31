@@ -1,8 +1,8 @@
-import React from 'react';
-import { DataGridPro, GridToolbar } from '@mui/x-data-grid-pro';
+import React, {useState} from 'react';
+import { DataGrid, GridToolbar } from '@mui/x-data-grid';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { politicalData } from './mock';
 
 const processDataForCharts = (data) => {
@@ -85,6 +85,32 @@ const districtBarChartOptions = {
     data: districtBarChartData
   }]
 };
+
+
+const theme = createTheme({
+  palette: {
+    primary: { main: '#1976d2' },
+    secondary: { main: '#dc004e' },
+  },
+  components: {
+    MuiDataGrid: {
+      styleOverrides: {
+        root: {
+          border: 'none',
+        },
+        columnHeader: {
+          backgroundColor: '#f5f5f5',
+        },
+        row: {
+          '&.Mui-even': {
+            backgroundColor: '#fafafa',
+          },
+        },
+      },
+    },
+  },
+});
+
 const pieChartOptions = {
   chart: {
     type: 'pie'
@@ -111,30 +137,6 @@ const pieChartOptions = {
     data: pieChartData
   }]
 };
-
-const theme = createTheme({
-  palette: {
-    primary: { main: '#1976d2' },
-    secondary: { main: '#dc004e' },
-  },
-  components: {
-    MuiDataGrid: {
-      styleOverrides: {
-        root: {
-          border: 'none',
-        },
-        columnHeader: {
-          backgroundColor: '#f5f5f5',
-        },
-        row: {
-          '&.Mui-even': {
-            backgroundColor: '#fafafa',
-          },
-        },
-      },
-    },
-  },
-});
 
 
 const columns = [
@@ -167,36 +169,14 @@ const columns = [
     valueGetter: (params) => params.value ? new Date(params.value) : null,
   }
 ];
-
-export default function MyDataGridComponent() {
-
-  const filterColumns = ({ field, columns, currentFilters }) => {
-    const filteredFields = currentFilters?.map((item) => item.field);
-    return columns
-      .filter(
-        (colDef) =>
-          colDef.filterable &&
-          (colDef.field === field || !filteredFields.includes(colDef.field)),
-      )
-      .map((column) => column.field);
-  };
-
-  const getColumnForNewFilter = ({ currentFilters, columns }) => {
-    const filteredFields = currentFilters?.map(({ field }) => field);
-    const columnForNewFilter = columns
-      .filter(
-        (colDef) => colDef.filterable && !filteredFields.includes(colDef.field),
-      )
-      .find((colDef) => colDef.filterOperators?.length);
-    return columnForNewFilter?.field ?? null;
-  };
-
+const MyDataGridComponent = () => {
+  const rows = politicalData.map((item, index) => ({ ...item, id: index }));
   return (
     <ThemeProvider theme={theme}>
       <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
         <div style={{ height: '50%', width: '100%' }}>
-          <DataGridPro
-            rows={politicalData}
+          <DataGrid
+            rows={rows}
             columns={columns}
             pageSize={10}
             rowsPerPageOptions={[5, 10, 20]}
@@ -205,29 +185,25 @@ export default function MyDataGridComponent() {
             components={{
               Toolbar: GridToolbar,
             }}
-            slotProps={{
-              filterPanel: {
-                filterFormProps: {
-                  filterColumns,
-                },
-                getColumnForNewFilter,
-              },
-            }}
+            getRowClassName={(params) => `Mui-even:${params.index % 2 === 0}`}
+            filterModel={filterModel}
+            onFilterModelChange={(newModel) => setFilterModel(newModel)}
           />
         </div>
         <div style={{ height: '50%', display: 'flex', justifyContent: 'space-around' }}>
           <div style={{ width: '30%' }}>
-            <HighchartsReact highcharts={Highcharts} options={barChartOptions} />
+            <HighchartsReact highcharts={Highcharts} options={barChartOptions}/>
           </div>
           <div style={{ width: '30%' }}>
             <HighchartsReact highcharts={Highcharts} options={pieChartOptions} />
           </div>
           <div style={{ width: '30%' }}>
-            <HighchartsReact highcharts={Highcharts} options={districtBarChartOptions} />
+            <HighchartsReact highcharts={Highcharts} options={districtBarChartOptions}/>
           </div>
         </div>
       </div>
     </ThemeProvider>
   );
-}
+};
 
+export default MyDataGridComponent;

@@ -1,5 +1,6 @@
 export const politicalData = [
     {
+      id: 1,
       Candidate: 'CHARLES HUGHES',
       Title: 'Small Business Owner',
       Status: 'Incumbent',
@@ -17,6 +18,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 2,
       Candidate: 'MICHELLE ROYAL',
       Title: 'Business Owner/Entrepreneur',
       Status: 'Incumbent',
@@ -34,6 +36,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id:3,
       Candidate: 'CARLO BASAIL',
       Title: 'Member, County Central Committee',
       Status: 'Incumbent',
@@ -51,6 +54,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 4,
       Candidate: 'DREW MERCY',
       Title: 'Member, County Central Committee',
       Status: 'Incumbent',
@@ -68,6 +72,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 5,
       Candidate: 'JAMES ROYAL',
       Title: 'Transportation Executive',
       Status: 'Incumbent',
@@ -85,6 +90,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 6,
       Candidate: 'JACK DANIELSON',
       Title: 'Taxpayer Advocate/Educator',
       Status: 'Incumbent',
@@ -102,6 +108,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 7,
       Candidate: 'RAJ MALHI',
       Title: 'Member, County Central Committee',
       Status: 'Incumbent',
@@ -119,6 +126,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 8,
       Candidate: 'DEBORAH DINO',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Incumbent',
@@ -136,6 +144,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 9,
       Candidate: 'KAREN ROSEBERRY',
       Title: 'Non-Profit Executive Director',
       Status: 'Incumbent',
@@ -153,6 +162,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 10,
       Candidate: 'BRYAN ANGUIANO',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Incumbent',
@@ -170,6 +180,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 11,
       Candidate: 'KENNETH MANN',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Incumbent',
@@ -187,6 +198,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 12,
       Candidate: 'ARCADIA VENEGAS',
       Title: 'Small Business Owner',
       Status: 'Incumbent',
@@ -204,6 +216,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 13,
       Candidate: 'MARVIN CRIST',
       Title: 'Member, County Central Committee',
       Status: 'Incumbent',
@@ -221,6 +234,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 14,
       Candidate: 'VINCENT J. DINO',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Incumbent',
@@ -238,6 +252,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 15,
       Candidate: 'DANIEL MALDONADO',
       Title: 'Businessman',
       Status: 'Incumbent',
@@ -255,6 +270,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 16,
       Candidate: 'NUNE GIPSON',
       Title: 'Businesswoman/Paralegal/Mom',
       Status: 'Challenger',
@@ -272,6 +288,7 @@ export const politicalData = [
       NOMFileDate: '11/16/2023 '
     },
     {
+      id: 17,
       Candidate: 'MELISSA LUNDIE',
       Title: 'Small Business Owner',
       Status: 'Challenger',
@@ -289,6 +306,7 @@ export const politicalData = [
       NOMFileDate: '11/29/2023 '
     },
     {
+      id: 18,
       Candidate: 'VERONICA HIXSON',
       Title: 'Educator/Parent',
       Status: 'Challenger',
@@ -306,6 +324,7 @@ export const politicalData = [
       NOMFileDate: '11/22/2023 '
     },
     {
+      id: 19,
       Candidate: 'LUCIE VOLOTZKY',
       Title: 'Mother/Businesswoman',
       Status: 'Challenger',
@@ -323,6 +342,7 @@ export const politicalData = [
       NOMFileDate: '11/30/2023 '
     },
     {
+      id: 20,
       Candidate: 'JOE MESSINA',
       Title: null,
       Status: 'Challenger',
@@ -340,6 +360,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 21,
       Candidate: 'PATRICK GIPSON',
       Title: 'Retired Deputy Sheriff',
       Status: 'Challenger',
@@ -357,6 +378,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 22,
       Candidate: 'AAKASH AHUJA',
       Title: 'Doctor',
       Status: 'Challenger',
@@ -374,6 +396,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 23,
       Candidate: 'JUDY LAMPPU',
       Title: 'Writer',
       Status: 'Challenger',
@@ -391,6 +414,7 @@ export const politicalData = [
       NOMFileDate: '11/14/2023 '
     },
     {
+      id: 24,
       Candidate: 'DENISE LITE',
       Title: 'Attorney/Parent/Entrepreneur',
       Status: 'Challenger',
@@ -408,6 +432,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 25,
       Candidate: 'BONNIE WALLACE',
       Title: 'Educator/Community Organizer',
       Status: 'Challenger',
@@ -425,6 +450,7 @@ export const politicalData = [
       NOMFileDate: '12/1/2023 '
     },
     {
+      id:26,
       Candidate: 'JACK C. MERCICA',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Challenger',
@@ -442,6 +468,7 @@ export const politicalData = [
       NOMFileDate: '10/30/2023 '
     },
     {
+      id: 27,
       Candidate: 'LOIS BRAND BILLINGS',
       Title: 'Educator/Realtor/Businessowner',
       Status: 'Challenger',
@@ -459,6 +486,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 28,
       Candidate: 'JACQUELINE MUNOZ',
       Title: 'Realtor/Non-Profit Coordinator',
       Status: 'Challenger',
@@ -476,6 +504,7 @@ export const politicalData = [
       NOMFileDate: '11/3/2023 '
     },
     {
+      id: 29,
       Candidate: 'DEBORAH SCOTT TOUX',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Challenger',
@@ -493,6 +522,7 @@ export const politicalData = [
       NOMFileDate: '11/6/2023 '
     },
     {
+      id: 30,
       Candidate: 'PIERRE SYLLA',
       Title: null,
       Status: 'Challenger',
@@ -510,6 +540,7 @@ export const politicalData = [
       NOMFileDate: '11/1/2023 '
     },
     {
+      id: 31,
       Candidate: 'CALLIE GREGORY',
       Title: 'Appointed Member County Central Committee',
       Status: 'Challenger',
@@ -527,6 +558,7 @@ export const politicalData = [
       NOMFileDate: '11/6/2023 '
     },
     {
+      id: 32,
       Candidate: 'CYNTHIA GABALDON',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Challenger',
@@ -544,6 +576,7 @@ export const politicalData = [
       NOMFileDate: '11/6/2023 '
     },
     {
+      id: 33,
       Candidate: 'LEO SAMUEL ZACKY',
       Title: 'Farmer/Businessman/Broadcaster',
       Status: 'Challenger',
@@ -561,6 +594,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 34,
       Candidate: 'RICHARD MULLEN',
       Title: 'Fire Captain',
       Status: 'Challenger',
@@ -578,6 +612,7 @@ export const politicalData = [
       NOMFileDate: '12/4/2023 '
     },
     {
+      id: 35,
       Candidate: 'RONNIE BANSBACH',
       Title: 'Homemaker',
       Status: 'Challenger',
@@ -595,6 +630,7 @@ export const politicalData = [
       NOMFileDate: '12/6/2023 '
     },
     {
+      id: 36,
       Candidate: 'ELIZABETH BARCOHANA',
       Title: 'Mother/Attorney',
       Status: 'Open Seat',
@@ -612,6 +648,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 37,
       Candidate: 'GINGER HYDE',
       Title: 'Small Business Owner',
       Status: 'Open Seat',
@@ -629,6 +666,7 @@ export const politicalData = [
       NOMFileDate: '12/1/2023 '
     },
     {
+      id: 38,
       Candidate: 'CLIFTON RIO TORRADO VON BUCK',
       Title: 'Business Owner',
       Status: 'Open Seat',
@@ -646,6 +684,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 39,
       Candidate: 'KAREN SIEGEMUND',
       Title: 'Member, County Central Committee',
       Status: 'Open Seat',
@@ -663,6 +702,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 40,
       Candidate: 'MARIANNE RIGGINS',
       Title: 'Retired City Employee',
       Status: 'Open Seat',
@@ -680,6 +720,7 @@ export const politicalData = [
       NOMFileDate: '12/6/2023 '
     },
     {
+      id: 41,
       Candidate: 'DENIS WEBER',
       Title: 'Retired Local Banker',
       Status: 'Open Seat',
@@ -697,6 +738,7 @@ export const politicalData = [
       NOMFileDate: '12/4/2023 '
     },
     {
+      id: 42,
       Candidate: 'K. "KEVIN" HEDVAT',
       Title: null,
       Status: 'Open Seat',
@@ -714,6 +756,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 43,
       Candidate: 'MARSHALL MULLEN',
       Title: 'Small Business Owner',
       Status: 'Open Seat',
@@ -731,6 +774,7 @@ export const politicalData = [
       NOMFileDate: '12/4/2023 '
     },
     {
+      id: 44,
       Candidate: 'SIAKA MASSAQUOI',
       Title: 'Producer',
       Status: 'Open Seat',
@@ -748,6 +792,7 @@ export const politicalData = [
       NOMFileDate: '12/8/2023 '
     },
     {
+      id: 45,
       Candidate: 'ROXANNE HOGE',
       Title: 'Appointed Member, County Central Committee',
       Status: 'Open Seat',
@@ -765,6 +810,7 @@ export const politicalData = [
       NOMFileDate: '12/7/2023 '
     },
     {
+      id: 46,
       Candidate: 'FELICIA L. NOVICK',
       Title: 'Mom/Office Administrator',
       Status: 'Write-in Candidate',
@@ -782,6 +828,7 @@ export const politicalData = [
       NOMFileDate: '11/2/2023 '
     },
     {
+      id: 47,
       Candidate: 'OTTO KRAUSE',
       Title: 'Small Business Owner',
       Status: 'Write-in Candidate',
@@ -799,6 +846,7 @@ export const politicalData = [
       NOMFileDate: '11/27/2023 '
     },
     {
+      id: 48,
       Candidate: 'MAHEALANI KANE URQUIZA',
       Title: 'Veteran Community Advocate',
       Status: 'Write-in Candidate',
@@ -816,6 +864,7 @@ export const politicalData = [
       NOMFileDate: '11/30/2023 '
     },
     {
+      id: 49,
       Candidate: 'AUDREY BARANISHYN-KRAUSE',
       Title: 'Small Business Owner',
       Status: 'Write-in Candidate',
