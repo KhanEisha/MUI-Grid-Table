@@ -4,6 +4,10 @@ import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { politicalData } from './mock';
+import { Box } from '@mui/material';
+import { styled } from '@mui/material/styles';
+import Switch from '@mui/material/Switch';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
 const processDataForCharts = (data) => {
   const statusSummary = {};
@@ -112,6 +116,57 @@ const pieChartOptions = {
   }]
 };
 
+const IOSSwitch = styled((props) => (
+  <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props}/>
+))(({ theme }) => ({
+  width: 42,
+  height: 26,
+  padding: 0,
+  '& .MuiSwitch-switchBase': {
+    padding: 0,
+    margin: 2,
+    transitionDuration: '300ms',
+    '&.Mui-checked': {
+      transform: 'translateX(16px)',
+      color: '#fff',
+      '& + .MuiSwitch-track': {
+        backgroundColor: theme.palette.mode === 'dark' ? '#2ECA45' : '#3399ff',
+        opacity: 1,
+        border: 0,
+      },
+      '&.Mui-disabled + .MuiSwitch-track': {
+        opacity: 0.5,
+      },
+    },
+    '&.Mui-focusVisible .MuiSwitch-thumb': {
+      color: '#33cf4d',
+      border: '6px solid #fff',
+    },
+    '&.Mui-disabled .MuiSwitch-thumb': {
+      color:
+        theme.palette.mode === 'light'
+          ? theme.palette.grey[100]
+          : theme.palette.grey[600],
+    },
+    '&.Mui-disabled + .MuiSwitch-track': {
+      opacity: theme.palette.mode === 'light' ? 0.7 : 0.3,
+    },
+  },
+  '& .MuiSwitch-thumb': {
+    boxSizing: 'border-box',
+    width: 22,
+    height: 22,
+  },
+  '& .MuiSwitch-track': {
+    borderRadius: 26 / 2,
+    backgroundColor: theme.palette.mode === 'light' ? '#99ccff' : '#3399ff',
+    opacity: 1,
+    transition: theme.transitions.create(['background-color'], {
+      duration: 500,
+    }),
+  },
+}));
+
 const theme = createTheme({
   palette: {
     primary: { main: '#1976d2' },
@@ -190,42 +245,60 @@ export default function MyDataGridComponent() {
       .find((colDef) => colDef.filterOperators?.length);
     return columnForNewFilter?.field ?? null;
   };
+  const [showTable, setShowTable] = React.useState(true);
+
+  const handleChange = (event) => {
+    setShowTable(event.target.checked);
+  };
 
   return (
     <ThemeProvider theme={theme}>
+      <FormControlLabel
+        control={
+          <IOSSwitch
+            sx={{ m: 3 }}
+            checked={showTable}
+            onChange={handleChange} />}
+        label={showTable ? "Table" : "Chart"}
+      />
       <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-        <div style={{ height: '50%', width: '100%' }}>
-          <DataGridPro
-            rows={politicalData}
-            columns={columns}
-            pageSize={10}
-            rowsPerPageOptions={[5, 10, 20]}
-            checkboxSelection
-            disableSelectionOnClick
-            components={{
-              Toolbar: GridToolbar,
-            }}
-            slotProps={{
-              filterPanel: {
-                filterFormProps: {
-                  filterColumns,
+        {showTable ?
+          <div style={{ height: '70%', width: '100%' }}>
+            <DataGridPro
+              rows={politicalData}
+              columns={columns}
+              pageSize={10}
+              rowsPerPageOptions={[5, 10, 20]}
+              checkboxSelection
+              disableSelectionOnClick
+              components={{
+                Toolbar: GridToolbar,
+              }}
+              slotProps={{
+                filterPanel: {
+                  filterFormProps: {
+                    filterColumns,
+                  },
+                  getColumnForNewFilter,
                 },
-                getColumnForNewFilter,
-              },
-            }}
-          />
-        </div>
-        <div style={{ height: '50%', display: 'flex', justifyContent: 'space-around' }}>
-          <div style={{ width: '30%' }}>
-            <HighchartsReact highcharts={Highcharts} options={barChartOptions} />
+              }}
+            />
           </div>
-          <div style={{ width: '30%' }}>
-            <HighchartsReact highcharts={Highcharts} options={pieChartOptions} />
-          </div>
-          <div style={{ width: '30%' }}>
-            <HighchartsReact highcharts={Highcharts} options={districtBarChartOptions} />
-          </div>
-        </div>
+          :
+          <Box m={10}>
+            <div style={{ height: '50%', display: 'flex', justifyContent: 'space-around' }}>
+              <div style={{ width: '30%' }}>
+                <HighchartsReact highcharts={Highcharts} options={barChartOptions} />
+              </div>
+              <div style={{ width: '30%' }}>
+                <HighchartsReact highcharts={Highcharts} options={pieChartOptions} />
+              </div>
+              <div style={{ width: '30%' }}>
+                <HighchartsReact highcharts={Highcharts} options={districtBarChartOptions} />
+              </div>
+            </div>
+          </Box>
+        }
       </div>
     </ThemeProvider>
   );
